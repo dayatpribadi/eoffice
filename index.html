@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="viho admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, viho admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <link rel="icon" href="assets/img/avtar/fav-eoff.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/avtar/fav-eoff.png" type="image/x-icon">
+    <title>E-Office Kabupaten Ogan Ilir</title>
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/dist/css/bootstrap.css">
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <!-- Vendor css -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/menu/jquery-fab-button.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/ticker/eocjs-newsticker.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="assets/vendor/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+      #ticker1 {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Loader starts-->
+    <div class="loader-wrapper">
+      <div class="theme-loader">    
+        <div class="loader-p"></div>
+      </div>
+    </div>
+    <!-- Loader ends-->
+
+    <!-- page-wrapper Start-->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-7">
+            <img class="bg-img-cover bg-center" src="assets/img/avtar/bg.webp" alt="looginpage">
+            <div class="form-group">
+              <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 505px;">
+                <a class="btn-floating btn-large red">
+                    <i class="ti-layout-grid2-alt"></i>
+                </a>
+                <ul>
+                    <li>
+                        <a href="#" id="first-fab" type="button" class="btn btn-floating" data-fabcolor="#14C38E" data-bs-toggle="tooltip" data-bs-placement="top" title="Contact Center">
+                          <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="second-fab" class="btn btn-floating" data-fabcolor="#7345ff" data-bs-toggle="tooltip" data-bs-placement="top" title="Video Tutorial">
+                            <i class="ti-video-camera"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="third-fab" class="btn btn-floating" data-fabcolor="#0084ff" data-bs-toggle="tooltip" data-bs-placement="top" title="Dokumen">
+                          <i class="bi bi-paperclip"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="fourth-fab" class="btn btn-floating" data-fabcolor="#ff7345" data-bs-toggle="tooltip" data-bs-placement="top" title="Pengumuman">
+                            <i class="ti-announcement"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+          
+          </div>
+
+          <div class="col-xl-5 p-0">
+            <div class="login-card">
+              <form class="theme-form login-form">
+                <div id="ticker1">
+                  <a href="#"><span class="bg-warning p-2">Info</span> Pengumuman Penting .......... !</a>
+                  <a href="#"><span class="bg-warning p-2">Info</span> Informasi Penting ......... !</a>
+                  <a href="#"><span class="bg-warning p-2">Info</span> Regulasi Terbaru ....... !</a>
+                </div>
+
+                <img src="assets/img/avtar/logooo.png" height="50" class="mb-3" alt="">
+                <img src="assets/img/avtar/logo-bsre.png" height="50" class="mb-3" alt="">
+                <img src="assets/img/avtar/logog20.webp" height="50" class="mb-3" alt="">
+                <h4>Login E-Office</h4>
+                <h6>Pemerintah Daerah Kabupaten Ogan Ilir</h6>
+
+                <div class="form-group mb-2">
+                  <label>Username</label>
+                  <div class="input-group"><span class="input-group-text"><i class="ti-user"></i></span>
+                    <input class="form-control" type="email" required="" placeholder="username">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Password</label>
+                  <div class="input-group"><span class="input-group-text"><i class="ti-lock"></i></span>
+                    <input class="form-control" type="password" name="login[password]" required="" placeholder="*********">
+                    <div class="show-hide"><span class="show"></span></div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <!-- reChaptca -->
+                  <div class="input-group col-lg-12 my-3">
+                    <div class="h-captcha" data-sitekey="e9193e57-57c7-4074-9503-aed631803f25"></div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="checkbox">
+                    <input id="checkbox1" type="checkbox">
+                    <label class="text-muted" for="checkbox1">Remember password</label>             
+                </div>
+
+                <div class="form-group d-flex justify-content-center p-0">
+                  <button class="btn btn-primary btn-block" type="submit"><i class="ti-user m-r-5"></i> Log In </button>
+                </div>
+
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- page-wrapper end-->
+
+    <!-- latest jquery-->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="assets/vendor/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Theme js-->
+    <script src="assets/js/script.js"></script>
+    <!-- login js-->
+    <!-- Plugin used-->
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    <script src="assets/vendor/menu/jquery-fab-button.js"></script>
+    <script src="assets/vendor/ticker/eocjs-newsticker.js"></script>
+
+    <script>
+    // For Demo Purpose [Changing input group text on focus]
+    $(function () {
+        $('input, select').on('focus', function () {
+            $(this).parent().find('.input-group-text').css('border-color', '#80bdff');
+        });
+        $('input, select').on('blur', function () {
+            $(this).parent().find('.input-group-text').css('border-color', '#ced4da');
+        });
+    });
+    </script>
+
+    <script>
+      $('#ticker1').eocjsNewsticker({
+  speed:      25
+});
+    </script>
+
+  </body>
+</html>
